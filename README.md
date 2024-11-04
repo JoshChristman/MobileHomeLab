@@ -35,6 +35,28 @@ Rear IO:  <br/>
 <img src="https://i.imgur.com/Y8ujKhB.jpeg" height="80%" width="80%" alt="Hardware Image 4"/>
 <br />
 <br />
+ 
+ <h2>Proxmox</h2>
+In this mobile home lab setup,Proxmox is used as the hypervisor to manage virtual machines and containers, providing a flexible and powerful virtualization platform. Proxmox allows for efficient resource allocation and centralized management, making it easy to deploy and maintain multiple VMs in a compact environment. In this setup, Proxmox hosts an OpenWRT VM that acts as the main router, managing network traffic, firewall rules, and DHCP settings. It also runs an Ubuntu Server VM with Docker, which serves as a container host for additional services, including a Tailscale container for secure remote access. This configuration allows for testing networking setups, running isolated applications in containers, and maintaining secure connectivity to the lab from remote locations. Proxmox’s web-based interface streamlines the process of creating, configuring, and monitoring these VMs, making it an ideal choice for a versatile and easily managed home lab environment.
+
+<br />
+<br />
+<p align="center">
+Proxmox PVE:  <br/>
+<img src="https://i.imgur.com/GXnL70l.png" height="80%" width="80%" alt="Proxmox Image 1"/>
+<br />
+<br />
+ 
+<h2>OpenWRT</h2>
+In this mobile lab, OpenWRT serves as the primary router, providing advanced networking features and robust control over network traffic. Running as a virtual machine on Proxmox, OpenWRT leverages NIC passthrough to access two physical Intel i226-V network interfaces directly: one designated for WAN and the other for LAN. This setup enables high-speed wired connectivity and flexibility in managing network flows between local and external networks. Additionally, OpenWRT is configured to use two USB interfaces: one for a USB Wi-Fi dongle, allowing the lab to connect to external networks wirelessly, and the other for USB tethering from a mobile phone for WAN data access. This combination of direct NIC passthrough and USB-based network options makes it easy to switch between wired, wireless, or tethered WAN connections as needed, providing a versatile and highly adaptable network environment ideal for testing various scenarios and maintaining reliable internet access in the lab.
+
+<br />
+<br />
+<p align="center">
+OpenWRT :  <br/>
+<img src="https://i.imgur.com/eZQGwPD.png" height="80%" width="80%" alt="OpenWRT Image 1"/>
+<br />
+
 <!--
  ```diff
 - text in red
