@@ -56,7 +56,22 @@ In this mobile lab, OpenWRT serves as the primary router, providing advanced net
 OpenWRT :  <br/>
 <img src="https://i.imgur.com/eZQGwPD.png" height="80%" width="80%" alt="OpenWRT Image 1"/>
 <br />
+<br />
+ 
+<h2>Ubuntu Linux Server</h2>
+In this lab, Ubuntu Server plays a central role, hosting key services and applications for testing and development. Running as a virtual machine on Proxmox, Ubuntu Server is configured with Cockpit, an intuitive web-based GUI that simplifies server management tasks such as monitoring, updating, and configuring the system directly from a browser. To ensure dedicated access and control, a single NIC is passed through as an admin interface, providing a backup connection specifically for administrative tasks. Additionally, the 4TB SATA SSD is passed through to the Ubuntu VM, creating a substantial storage pool ideal for data backup, application storage, and Docker containers. With this setup, Docker containers have direct access to the large storage pool, allowing for efficient use of space and performance when running multiple services. This configuration combines powerful local storage and easy web-based management, making Ubuntu Server a reliable and scalable solution for home lab projects.
 
+<br />
+<br />
+<p align="center">
+Cockpit GUI :  <br/>
+<img src="https://i.imgur.com/P5Hr9ZB.png" height="80%" width="80%" alt="Cockpit Image 1"/>
+<br />
+<br />
+<p align="center">
+Cockpit Turminal :  <br/>
+<img src="https://i.imgur.com/9xshJhA.png" height="80%" width="80%" alt="Cockpit Image 2"/>
+<br />
 <!--
  ```diff
 - text in red
