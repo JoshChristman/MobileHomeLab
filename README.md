@@ -68,9 +68,24 @@ Cockpit GUI :  <br/>
 <img src="https://i.imgur.com/P5Hr9ZB.png" height="80%" width="80%" alt="Cockpit Image 1"/>
 <br />
 <br />
+ 
+<h2>Docker</h2>
+In this home lab setup, Docker serves as a flexible and lightweight platform for managing and running containers. To streamline container management, Portainer is installed, providing a user-friendly web GUI for deploying, monitoring, and maintaining containers. With Portainer, you can easily manage containerized applications, networks, and volumes from a single interface. One core application in this lab is Dashy, a customizable home lab dashboard that centralizes access to all lab services, links, and tools, making it easy to monitor and navigate the environment. Another key container is Syncthing, which is configured to sync specific folders between my home NAS and the lab environment. This setup ensures that important files are always up to date across devices, with changes automatically mirrored between systems. Together, Docker, Portainer, Dashy, and Syncthing create a powerful ecosystem for efficient management, access, and data synchronization, ideal for keeping lab resources organized and readily available.
+
+<br />
+<br />
 <p align="center">
-Cockpit Turminal :  <br/>
-<img src="https://i.imgur.com/9xshJhA.png" height="80%" width="80%" alt="Cockpit Image 2"/>
+Portainer:  <br/>
+<img src="https://i.imgur.com/rGdCI5a.png" height="80%" width="80%" alt="Portainer Image 1"/>
+<br />
+<br />
+Dashy: <br/>
+<img src="https://i.imgur.com/1gnL5oa.png" height="80%" width="80%" alt="Dashy Image 1"/>
+<br />
+<br />
+Syncthing:  <br/>
+<img src="https://i.imgur.com/awiaLmi.png" height="80%" width="80%" alt="Syncthing Image 1"/>
+<br />
 <br />
 <!--
  ```diff
