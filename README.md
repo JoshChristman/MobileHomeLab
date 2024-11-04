@@ -54,7 +54,7 @@ In this mobile lab, OpenWRT serves as the primary router, providing advanced net
 <br />
 <p align="center">
 OpenWRT :  <br/>
-<img src="https://i.imgur.com/eZQGwPD.png" height="80%" width="80%" alt="OpenWRT Image 1"/>
+<img src="https://i.imgur.com/W9hoXpS.png" height="80%" width="80%" alt="OpenWRT Image 1"/>
 <br />
 <br />
  
