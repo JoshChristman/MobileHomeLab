@@ -82,6 +82,7 @@ In this home lab setup, Docker serves as a flexible and lightweight platform for
     <td><img src="https://i.imgur.com/awiaLmi.png" height="100%" width="100%" alt="Syncthing Image"/></td>
   </tr>
 </table>
+
 ---
 
 👉 **GitHub Profile:** [github.com/JoshChristman](https://github.com/JoshChristman)  
